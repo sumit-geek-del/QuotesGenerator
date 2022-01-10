@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Luxurious Roman', cursive;
+  background-color: #c8d6e5;
+}
+h1{
+  margin: 1rem 0;
+  font-size: 8rem;
+  text-align: center;
+  color: #222f3e;
+  text-shadow: 1px 1px 1px #fff;
+}
+.new-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem 0;
+  width: 80rem;
+  height: 30rem;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.card-body{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new-card h5{
+  text-align: center;
+  font-size: 2.4rem;
+  color: #222f3e;
+  font-weight: 700;
+}
+.new-card .author{
+  font-size: 2rem;
+  color: #353b48;
+  font-weight: 300;
+}
+.new-card span{
+  color: #EA2027;
+  font-weight: 700;
+}
+.btn{
+  margin: 1.3rem 2rem 0 0;
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+.btn:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.btn-group{
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width : 600px){
+  h1{
+    margin: 1rem 0;
+  font-size: 4rem;
+  text-align: center;
+  color: #222f3e;
+  text-shadow: 1px 1px 1px #fff;
+  }
+  .new-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12rem 0;
+    width: 31rem;
+    height: 25rem;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  .new-card h5{
+    text-align: center;
+    font-size: 1.7rem;
+    color: #222f3e;
+    font-weight: 500;
+  }
+  .new-card .author{
+    margin: 1rem 0;
+    font-size: 1.6rem;
+    color: #353b48;
+    font-weight: 300;
+  }
+}
